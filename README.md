@@ -18,8 +18,8 @@ validation in code can and cannot fix.
 Usage:
     ollama pull llama3.1:8b
     ollama pull qwen2.5:7b
-    python tool_calling_check.py --models llama3.1:8b qwen2.5:7b --variant both
-    python tool_calling_check.py --models llama3.1:8b --runs 3 --temperature 0.7
+    python toolTesting.py --models llama3.1:8b qwen2.5:7b --variant both
+    python toolTesting.py --models llama3.1:8b --runs 3 --temperature 0.7
  
 Notes:
 - Only the first tool call in each reply is scored.
