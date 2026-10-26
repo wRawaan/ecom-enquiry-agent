@@ -87,7 +87,7 @@ python toolTesting.py --models llama3.1:8b qwen2.5:7b --variant both
 
 ## Results so far
 
-Run on Windows with an NVIDIA RTX 4060 (8 GB) and Ollama, temperature 0,
+Run on Windows with a good GPU and Ollama, temperature 0,
 `strict` key, one run per message.
 
 `schema` variant:
